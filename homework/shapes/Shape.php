@@ -1,5 +1,5 @@
 <?php
-class Shape
+abstract class Shape
 {
     protected $x;
     protected $y;
@@ -9,4 +9,5 @@ class Shape
         $this->x = $x;
         $this->y = $y;
     }
+    public abstract function draw();
 }
